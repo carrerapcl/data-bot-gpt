@@ -1,0 +1,102 @@
+version: 2
+
+models:
+
+  - name: mpas_incidents
+    description: MPAS Incidents
+
+  - name: mpas_equipments
+    description: MPAS Equipments Managed by Saltpay
+
+  - name: mpas_item_location
+    description: MPAS Item Locations
+    columns:
+      - name: ITEM_ID
+        description: "Unique identifier of each item"
+        tests:
+          - not_null
+      - name: TERMINAL_ID
+        description: "Unique identifier for those items that are terminals, also known as TID"
+      - name: TERMINAL_SERIAL_NUMBER
+        description: "Another type of unique identifier for those items that are terminals, also known as TID"
+      - name: TERMINAL_STATUS
+        description: ""
+      - name: LOCATION_ID
+        description: ""
+      - name: LOCATION_DESCRIPTION
+        description: ""
+      - name: CONNECTION_TYPE
+        description: ""
+      - name: LOCATION_NAME
+        description: ""
+      - name: CITY
+        description: ""
+      - name: STREET
+        description: ""
+      - name: ZIP
+        description: ""
+      - name: COUNTRY
+        description: ""
+      - name: LOCATION_OUTLET_ID
+        description: ""
+      - name: SALTPAY_GUID
+        description: ""
+      - name: DEFAULT_WAREHOUSE_ID
+        description: ""
+      - name: WAREHOUSE
+        description: ""
+      - name: INSTALLATION_CODE
+        description: ""
+      - name: INSTALLATION_ID
+        description: ""
+      - name: INSTALLATION_DATE
+        description: ""
+      - name: MID
+        description: ""
+      - name: LOCATION_BRANCH_ID
+        description: ""
+      - name: LOCATION_COMPANY_ID
+        description: ""
+      - name: COMPANY_NAME
+        description: ""
+      - name: COMPANY_CREATED_AT
+        description: ""
+      - name: COMPANY_CONTACT_ID
+        description: ""
+      - name: COMPANY_IDENTIFICATION_NUMBER
+        description: ""
+      - name: COMPANY_COUNTRY_CODE
+        description: ""
+      - name: PROJECT_ID
+        description: ""
+      - name: PROJECT_CODE
+        description: ""
+      - name: PROJECT_NAME
+        description: ""
+      - name: PROJECT_COUNTRY_CODE
+        description: ""
+      - name: PROJECT_INSTITUTION_ID
+        description: ""
+      - name: INSTALLATION_STATUS_ID
+        description: ""
+      - name: INSTALLATION_STATUS
+        description: ""
+      - name: PRODUCT_ID
+        description: ""
+      - name: PRODUCT_NAME
+        description: ""
+      - name: SYSTEM_TYPE
+        description: ""
+      - name: TERMINAL_TYPE
+        description: ""
+      - name: SOFTWARE_VERSION
+        description: ""
+      - name: ACQUIRER
+        description: ""
+      - name: COMPANY_STATUS
+        description: ""
+      - name: PROJECT_STATUS
+        description: ""
+      - name: ITEM_ACTIVITY_STATUS
+        description: ""
+        
