@@ -11,4 +11,4 @@ export OPENAI_KEY = "<your_key>"
 
 And then add `.env` to the `.gitignore` file so your keys stay safe.
 
-7:05 yarn install
+Enter `flask run` in the terminal and go to the link shown to see the chatbox.
